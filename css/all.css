@@ -8,3 +8,15 @@
 .title span {
     font-size: 24px;
 }
+.content {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+div[class*="box"] {
+    width: 20%;
+    height: 50px;
+}
+div[class*="box"]:nth-child(even) {
+    background: #ccc;
+}
