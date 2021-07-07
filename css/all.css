@@ -59,8 +59,9 @@ div[class*="box"] p {
     background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
 }
 div[class*="load"] {
-    display: block;
+    display: flex;
     height: 80px;
+    align-items: flex-end;
 }
 
 /*Set Animation*/
