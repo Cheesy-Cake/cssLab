@@ -18,9 +18,6 @@ div[class*="box"] {
     width: 20%;
     height: 50%;
 }
-div[class*="box"]:nth-child(even) {
-    background: #ccc;
-}
 .box1 {
     background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
 }
