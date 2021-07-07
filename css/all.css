@@ -18,7 +18,14 @@ div[class*="box"] {
     width: 20%;
     height: 50%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+}
+div[class*="box"] p {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .box1 {
     background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
