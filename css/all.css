@@ -21,6 +21,26 @@ div[class*="box"] {
 div[class*="box"]:nth-child(even) {
     background: #ccc;
 }
+.box1 {
+    background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+}
+.box2 {
+    background-image: linear-gradient(to top, #ffecd2 0%, #fcb69f 100%);
+}
+.box3 {
+    background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+}
+.box4 {
+    background-image: linear-gradient(to top, #84fab0 0%, #8fd3f4 100%);
+}
+.box5 {
+    background-image: linear-gradient(to top, #a1c4fd 0%, #c2e9fb 100%);
+}
+.box6 {}
+.box7 {}
+.box8 {}
+.box9 {}
+.box10 {}
 
 /*Set Animation*/
 .box1 .line:nth-last-child(1) {
