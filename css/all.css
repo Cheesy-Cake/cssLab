@@ -16,10 +16,11 @@
 }
 div[class*="box"] {
     width: 20%;
-    height: 50%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: baseline;
+    padding: 40px 0;
 }
 div[class*="box"] p {
     width: 100%;
