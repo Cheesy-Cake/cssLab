@@ -17,6 +17,8 @@
 div[class*="box"] {
     width: 20%;
     height: 50%;
+    display: flex;
+    justify-content: center;
 }
 .box1 {
     background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
@@ -34,7 +36,7 @@ div[class*="box"] {
     background-image: linear-gradient(to top, #a1c4fd 0%, #c2e9fb 100%);
 }
 .box6 {
-    background-image: linear-gradient(to top, #43e97b 0%, #38f9d7 100%);
+    background-image: linear-gradient(to top, #93a5cf 0%, #e4efe9 100%);
 }
 .box7 {
     background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
@@ -50,6 +52,13 @@ div[class*="box"] {
 }
 
 /*Set Animation*/
+.line {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    background-color: #4b9cdb;
+}
 .box1 .line:nth-last-child(1) {
     animation: loadingA 1.5s 1s infinite;
 }
