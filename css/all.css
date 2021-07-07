@@ -116,6 +116,9 @@ div[class*="load"] {
     50% {transform: translate(0,15px);}
     100% {transform: translate(0,0);}
 }
+.load-4 .ring-1 {
+    animation: loadingD 1.5s .3s cubic-bezier(.17, .37, .43, .67) infinite;
+}
 @keyframes loadingD {
     0 {transform: rotate(0deg);}
     50% {transform: rotate(180deg);}
