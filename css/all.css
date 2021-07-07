@@ -102,3 +102,56 @@ div[class*="load"] {
     50% {width: 35px;}
     100% {width: 15px;}
 }
+.box3 .line:nth-last-child(1) {
+    animation: loadingC .6s .1s linear infinite;
+}
+.box3 .line:nth-last-child(2) {
+    animation: loadingC .6s .2s linear infinite;
+}
+.box3 .line:nth-last-child(3) {
+    animation: loadingC .6s .3s linear infinite;
+}
+@keyframes loadingC {
+    0 {transform: translate(0,0);}
+    50% {transform: translate(0,15px);}
+    100% {transform: translate(0,0);}
+}
+@keyframes loadingD {
+    0 {transform: rotate(0deg);}
+    50% {transform: rotate(180deg);}
+    100% {transform: rotate(360deg);}
+}
+@keyframes loadingE {
+    0 {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+@keyframes loadingF {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+@keyframes loadingG {
+    0% {transform: translate(0,0) rotate(0deg);}
+    50% {transform: translate(70px,0) rotate(360deg);}
+    100% {transform: translate(0,0) rotate(0deg);}
+}
+@keyframes loadingH {
+    0% {width: 15px;}
+    50% {width: 35px; padding: 4px;}
+    100% {width: 15px;}
+}
+@keyframes loadingI {
+    100% {transform: rotate(360deg);}
+}
+@keyframes bounce  {
+  0%, 100% {transform: scale(0.0);}
+  50% {transform: scale(1.0);}
+}
+@keyframes loadingJ {
+  0%,100% {transform: translate(0,0);}
+  
+  50% {
+      transform: translate(80px,0);
+      background-color: #f5634a;
+      width: 25px;
+  }
+}
