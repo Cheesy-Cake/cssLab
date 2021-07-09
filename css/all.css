@@ -11,29 +11,27 @@ body {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
 }
-
 .content {
     padding: 15px;
     overflow: hidden;
     background-color: #e7e7e7;
     background-color: rgba(0, 0, 0, 0.06);
+    display: inline-flex;
+    flex-wrap: wrap;
 }
-
 h1 {
     padding-bottom: 15px;
     border-bottom: 1px solid #d8d8d8;
     font-weight: 600;
 }
-
 h1 span {
     font-family: monospace, serif;
 }
-
 h3 {
+    width: 100%;
     padding-bottom: 20px;
     box-shadow: 0 1px 0 rgba(0, 0, 0, .1), 0 2px 0 rgba(255, 255, 255, .9);
 }
-
 p {
     margin: 0;
     padding: 10px 0;
