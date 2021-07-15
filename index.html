@@ -227,6 +227,7 @@
                             </fieldset>
                             <fieldset class="col-md-12 col-sm-12">
                                 <input type="submit" class="button big default" value="Send Message">
+                                <input type="button" value="Send Email" onclick="sendEmail()">
                             </fieldset>
                         </form>
                     </div> <!-- .contact-form -->
@@ -248,5 +249,24 @@
         <script src="js/min/plugins.min.js"></script>
         <script src="js/min/main.min.js"></script>
 
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script>
+            function sendEmail(){
+                Email.send({
+                    SecureToken : "60f12c9b-ba46-444c-b8ee-d46db9bcbc56",
+                    To : 'kolowu.99@gmail.com',
+                    From : "小泉幸子<koizumi.sachiko.99@gmail.com>",
+                    Subject : "SMTP JS測試",
+                    Body : "<b>這是由SMTP JS透過SecureToken寄送</b>",
+                    // Attachments : [
+                    // {
+                    //     name : "smtpjs.png",
+                    //     path : "https://networkprogramming.files.wordpress.com/2017/11/smtpjs.png"
+                    // }]
+                }).then(
+                message => alert(message)
+                );
+            }
+        </script>
     </body>
 </html>
