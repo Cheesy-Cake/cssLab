@@ -227,7 +227,7 @@
                             </fieldset>
                             <fieldset class="col-md-12 col-sm-12">
                                 <input type="submit" class="button big default" value="Send Message">
-                                <input type="button" value="Send Email" onclick="sendEmail()">
+                                <!-- <input type="button" value="Send Email" onclick="sendEmail()"> -->
                             </fieldset>
                         </form>
                     </div> <!-- .contact-form -->
@@ -268,6 +268,12 @@
                 // );
                 console.log();
             }
+            $(document).ready(function(){
+                $( "form" ).on( "submit", function( event ) {
+                    event.preventDefault();
+                    console.log( $( this ).serialize() );
+                });
+            })
         </script>
     </body>
 </html>
