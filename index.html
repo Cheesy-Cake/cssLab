@@ -271,10 +271,10 @@
                 console.log();
             }
             $(document).ready(function(){
-            $("button").click(function(){
-                $(".info").text($("form").serialize());
-
-            });
+                $("button").click(function(){
+                    $(".info").text($(this).serialize());
+                    return false;
+                });
             });
         </script>
     </body>
