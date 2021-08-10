@@ -164,7 +164,7 @@ body {
   margin-left: -10%;
   top: 50%;
   margin-top: -10%;
-  background: #d0f1dd;
+  background: #ffa261;
   border-radius: 50%;
   text-align: center;
   line-height: 7rem;
@@ -191,7 +191,7 @@ body {
   height: 0;
   border-left: 15px solid transparent;
   border-right: 15px solid transparent;
-  border-bottom: 50px solid #d0f1dd;
+  border-bottom: 50px solid #ffa261;
   position: absolute;
   top: -45px;
   left: 39%;
