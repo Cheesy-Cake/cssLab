@@ -14,7 +14,7 @@ body {
 }
 .result {
   text-align: center;
-  background: #ffa261;
+  background: #ff7761;
   color: #fff;
   font-size: 26px;
   width: 100%;
@@ -27,7 +27,7 @@ body {
   width: 500px;
   height: 500px;
   position: absolute;
-  background: #ffa261;
+  background: #ff7761;
   border-radius: 50%;
   top: 50px;
 }
@@ -135,7 +135,7 @@ body {
   height: 0;
   border-left: 60px solid transparent;
   border-right: 60px solid transparent;
-  border-top: 225px solid #f7a967;
+  border-top: 225px solid #ffc697;
 }
 .wrap ul li:nth-child(even):after {
   content: '';
@@ -144,7 +144,7 @@ body {
   height: 0;
   border-left: 60px solid transparent;
   border-right: 60px solid transparent;
-  border-top: 225px solid #fcf594;
+  border-top: 225px solid #ffe0bf;
 }
 .wrap .title {
   width: 10%;
@@ -165,7 +165,7 @@ body {
   margin-left: -10%;
   top: 50%;
   margin-top: -10%;
-  background: #ff3434;
+  background: #ff7761;
   border-radius: 50%;
   text-align: center;
   line-height: 7rem;
@@ -192,7 +192,7 @@ body {
   height: 0;
   border-left: 15px solid transparent;
   border-right: 15px solid transparent;
-  border-bottom: 50px solid #ff3434;
+  border-bottom: 50px solid #ff7761;
   position: absolute;
   top: -45px;
   left: 39%;
