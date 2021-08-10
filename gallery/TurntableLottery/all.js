@@ -1,6 +1,4 @@
 window.onload = function(){
-    
-    
         function getClassName(tagName, classname) {
             if (document.getElementsByClassName) {
                 return document.getElementsByClassName(classname);
@@ -24,7 +22,7 @@ window.onload = function(){
             this.turntable = turntableDom;//转盘dom
             this.result = resultDom;//结果dom
             this.flag = true;//开关设置
-            this.times = 20;//执行时间
+            this.times = 10;//执行时间
             this.turns = Math.ceil(Math.random()*3+1);//旋转圈数
             this.speed = Math.floor(Math.random()*5)+3;//速度
             this.turnNum = 12;//格子总数
