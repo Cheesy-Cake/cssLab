@@ -127,7 +127,7 @@
   height: 0;
   border-left: 60px solid transparent;
   border-right: 60px solid transparent;
-  border-top: 225px solid #1b7b54;
+  border-top: 225px solid #7b1b1b;
 }
 .wrap ul li:nth-child(even):after {
   content: '';
@@ -136,7 +136,7 @@
   height: 0;
   border-left: 60px solid transparent;
   border-right: 60px solid transparent;
-  border-top: 225px solid #18b373;
+  border-top: 225px solid #dbcd07;
 }
 .wrap .title {
   width: 10%;
@@ -172,8 +172,8 @@
   top: 50%;
   margin-top: -40%;
   border-radius: 50%;
-  background: #1cca69;
-  box-shadow: 0px 0px 8px -1px #2a924f;
+  background: #ca931c;
+  box-shadow: 0px 0px 8px -1px #92652a;
   cursor: pointer;
   display: flex;
   align-items: center;
