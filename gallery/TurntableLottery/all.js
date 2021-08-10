@@ -10,6 +10,7 @@ window.onload = function(){
                         results[results.length] = elems[i];
                     }
                 }
+                console.log(results);
                 return results;
             }
         }
