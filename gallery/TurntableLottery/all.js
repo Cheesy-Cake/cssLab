@@ -99,7 +99,7 @@ window.onload = function(){
             this.initialDegMax = this.turns*360+this.arr[this.num][1];
             this.MathAngle = Math.ceil(Math.random()*(this.initialDegMax-this.initialDegMini) )+this.initialDegMini;
             this.flag = true;
-            this.text ='结果为：'+ this.arr[this.num][0];
+            this.text ='結果：'+ this.arr[this.num][0];
     
         }
     
