@@ -22,6 +22,7 @@
 .wrap {
   width: 700px;
   height: 700px;
+  position: absolute;
   background: #24c7b8;
   border-radius: 50%;
 }
