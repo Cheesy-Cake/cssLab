@@ -22,14 +22,8 @@
 .wrap {
   width: 700px;
   height: 700px;
-  position: absolute;
-  left: 50%;
-  margin-left: -350px;
-  top: 50%;
-  margin-top: -350px;
   background: #24c7b8;
   border-radius: 50%;
-  top: 45%;
 }
 
 .wrap ul {
