@@ -31,6 +31,6 @@ body {
 .tagsList li {
     background: #ADD7AB;
 }
-.tagsList li.selected {
+.tagsList li[checked="checked"] {
     background: #FABC74;
 }
