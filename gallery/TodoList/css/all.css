@@ -54,45 +54,21 @@ body {
     margin-right: 20px;
 }
 .itemInputBox .addBtn {
-  border: 1px solid #eee;
-  padding: 5px 20px;
+  padding: 5px 5px;
   border-radius: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
-  width: 80px;
+  width: 15px;
   height: 15px;
   cursor: pointer;
-  background: #fff;
-  opacity: 0.8;
-  color: #fff;
-  font-weight: 700;
-  font-size: 16px;
-  text-shadow: 1px 1px 1px #000;
 }
 p::before {
   content: "";
-  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  position: absolute;
-  border-radius: 10px;
-  background-size: 400%;
-  animation: glowing 20s linear infinite;
-  transition: opacity .3s ease-in-out;
-  filter: blur(10px);
-}
-p:hover::before {
-  opacity: 0;
-  animation-play-state: paused;
-}
-
-@keyframes glowing {
-    0% { background-position: 0 0; }
-    50% { background-position: 400% 0; }
-    100% { background-position: 0 0; }
+  width: 2px;
+  height: 10px;
+  background: #fff;
 }
 
 #playerName {
