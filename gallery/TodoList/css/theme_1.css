@@ -28,3 +28,9 @@ body {
     position: absolute;
     left: -33px;
 }
+.tagsList li {
+    background: #ADD7AB;
+}
+.tagsList li.selected {
+    background: #FABC74;
+}
