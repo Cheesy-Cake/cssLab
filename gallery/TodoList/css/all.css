@@ -82,9 +82,20 @@ body {
     position: absolute;
 }
 .itemsContainer {
-    width: 800px;
-    height: 800px;
+    width: 90%;
+    height: 70%;
     background: #fff;
+    margin: 0 auto;
+    position: relative;
+}
+.itemContainer::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: #99C4C1;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
 #playerName {
