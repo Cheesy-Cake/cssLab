@@ -35,3 +35,12 @@ body {
 .tagsList input:checked + .button {
     background: #FABC74;
 }
+.itemInputBox input[type="text"] {
+    border: 0;
+    border-bottom: 2px solid #000;
+    background: none;
+    outline: none;
+}
+.itemInputBox input[type="text"]:focus {
+  background: none;
+}

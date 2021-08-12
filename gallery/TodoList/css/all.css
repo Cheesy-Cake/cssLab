@@ -48,20 +48,12 @@ body {
     justify-content: center;
     align-items: center;
 }
-input[type="text"].itemInput {
-  width: 70%;
-  height: 25px;
-  border: 0;
-  border-bottom: 1px solid #eee;
-  margin-right: 20px;
-  background: rgb(213 213 213 / 14%);
-  outline: none;
+.itemInputBox input[type="text"] {
+    width: 70%;
+    height: 25px;
+    margin-right: 20px;
 }
-input[type="text"]:focus {
-  background: #eee;
-}
-
-p {
+.itemInputBox .addBtn {
   border: 1px solid #eee;
   padding: 5px 20px;
   border-radius: 5px;
