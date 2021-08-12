@@ -4,16 +4,25 @@ body {
 .container .title {
     color: #000;
     background: #F5F4E8;
+    border-right: 30px solid #DAA592;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 .container .title::before {
     content: '';
-    width: 32px;
-    height: 32px;
-    background: #F5F4E8;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    left: -32px;
+    border: 16px solid;
+    border-color: transparent #F5F4E8 transparent transparent;
 }
 .container .title::after {
     content: '';
-    width: 16px;
-    height: 16px;
-    background: #414141;
+    width: 0px;
+    height: 0px;
+    border: 8px solid;
+    border-color: transparent #414141 transparent transparent;
+    position: absolute;
+    left: -24px;
 }
