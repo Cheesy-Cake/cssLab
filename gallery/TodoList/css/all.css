@@ -81,6 +81,11 @@ body {
     border-radius: 5px;
     position: absolute;
 }
+.itemsContainer {
+    width: 800px;
+    height: 800px;
+    background: #fff;
+}
 
 #playerName {
   width: 150px;

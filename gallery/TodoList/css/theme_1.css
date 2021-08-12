@@ -44,3 +44,12 @@ body {
 .itemInputBox input[type="text"]:focus {
   background: none;
 }
+.itemInputBox .addBtn {
+    background: #000;
+}
+.itemInputBox .addBtn::before {
+    background: #fff;
+}
+.itemInputBox .addBtn::after {
+    background: #fff;
+}
