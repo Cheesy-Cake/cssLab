@@ -31,11 +31,14 @@ body {
     align-items: center;
     margin: 0 auto;
 }
-.tagsList li {
+.tagsList span {
     padding: 8px 16px;
     border-radius: 20px;
     margin-right: 5px;
     cursor: pointer;
+}
+.tagsList input[type="radio"] {
+    display: none;
 }
 input[type="text"] {
   width: 70%;
