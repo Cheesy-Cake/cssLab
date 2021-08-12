@@ -28,7 +28,7 @@ body {
     position: absolute;
     left: -33px;
 }
-.tagsList li {
+.tagsList .button {
     background: #ADD7AB;
 }
 .tagsList input:checked + .button {
