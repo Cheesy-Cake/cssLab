@@ -30,6 +30,7 @@ body {
 }
 .tagsList .button {
     background: #ADD7AB;
+    box-shadow: 1px 1px 1px 1px rgb(0 0 0 / 14%);
 }
 .tagsList input:checked + .button {
     background: #FABC74;
