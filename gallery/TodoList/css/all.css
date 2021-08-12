@@ -110,8 +110,8 @@ body {
     height: 40px;
 }
 .itemsContainerTitle .tag-icon {
-    width: 30px;
-    height: 30px;
+    width: 22px;
+    height: 22px;
     background: #000;
     position: relative;
     transform: rotate(45deg);
@@ -121,17 +121,19 @@ body {
     width: 0px;
     height: 0px;
     border-style: solid;
-    border-width: 15px 15px 15px 0;
+    border-width: 11px 11px 11px 0;
     border-color: transparent #000 transparent transparent;
     position: absolute;
     top: 0;
-    left: -15px;
+    left: -11px;
 }
 .itemsContainerTitle .tag-icon::after {
     content: '';
-    width: 20px;
-    height: 20px;
+    width: 8px;
+    height: 8px;
     border-radius: 50%;
     background: #fff;
     position: absolute;
+    top: 6px;
+    left: -6px;
 }
