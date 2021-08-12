@@ -1,3 +1,19 @@
 body {
-    /* background: #000; */
+    background: #239F95;
+}
+.container .title {
+    color: #000;
+    background: #F5F4E8;
+}
+.container .title::before {
+    content: '';
+    width: 32px;
+    height: 32px;
+    background: #F5F4E8;
+}
+.container .title::after {
+    content: '';
+    width: 16px;
+    height: 16px;
+    background: #414141;
 }
