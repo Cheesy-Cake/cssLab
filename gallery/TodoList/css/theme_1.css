@@ -14,15 +14,17 @@ body {
     height: 0px;
     position: absolute;
     left: -32px;
-    border: 16px solid;
+    border-style: solid;
+    border-width: 16px 32px 16px 0;
     border-color: transparent #F5F4E8 transparent transparent;
 }
 .container .title::after {
     content: '';
     width: 0px;
     height: 0px;
-    border: 8px solid;
+    border-style: solid;
+    border-width: 8px 16px 8px 0;
     border-color: transparent #414141 transparent transparent;
     position: absolute;
-    left: -24px;
+    left: -33px;
 }
