@@ -1,11 +1,6 @@
-const para = document.getElementById('updateBtn');
-const renewName = document.getElementsByClassName('renewName')[0];
-renewName.addEventListener('change',renewNameFc);
-para.addEventListener('click',pClick);
-const nowName = document.getElementById('playerName');
-function pClick() {
- nowName.innerHTML = renewName.value;
-}
-function renewNameFc() {
-  nowName.innerHTML = renewName.value;
-}
+//const 變數名稱 = document.getElementById('');
+//const 變數名稱 = document.getElementsByClassName('renewName')[0];
+//get ClassName 的時候比較特別，需要加上陣列編號
+//變數名稱.addEventListener('狀態',Function);
+//定義一個 function 名稱(){};
+
