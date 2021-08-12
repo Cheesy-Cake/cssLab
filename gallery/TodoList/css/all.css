@@ -102,6 +102,10 @@ body {
     border-width: 50px 0 0 50px;
     border-color: #239f95 transparent transparent #99C4C1;
 }
+.itemsContainerTitle {
+    width: 80%;
+    height: 30px;
+}
 
 #playerName {
   width: 150px;
