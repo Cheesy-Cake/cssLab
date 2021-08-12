@@ -87,6 +87,7 @@ body {
     background: #fff;
     margin: 0 auto;
     position: relative;
+    margin-top: 25px;
 }
 .itemsContainer::before {
     content: '';

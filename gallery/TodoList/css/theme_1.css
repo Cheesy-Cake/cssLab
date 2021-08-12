@@ -44,6 +44,10 @@ body {
 .itemInputBox input[type="text"]:focus {
   background: none;
 }
+.itemInputBox input[type="text"]::placeholder {
+    color: #fff;
+    font-weight: 700;
+}
 .itemInputBox .addBtn {
     background: #000;
 }
