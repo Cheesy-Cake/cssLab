@@ -127,8 +127,11 @@ body {
     top: 0;
     left: -15px;
 }
-
-#playerName {
-  width: 150px;
-  height: 20px;
+.itemsContainerTitle .tag-icon::after {
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
 }
