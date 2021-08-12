@@ -6,7 +6,9 @@
 
 const itemsContainerBox = document.getElementById('itemsContainerBox');
 const addBtn = document.getElementById('addBtn');
+const itemInput = document.getElementById('itemInput');
+const createItem = "<span>" + itemInput.value + "</span>";
 addBtn.addEventListener('click',addTask);
 function addTask () {
-  console.log('OK');
+  console.log(createItem);
 }
