@@ -90,12 +90,14 @@ body {
 }
 .itemsContainer::before {
     content: '';
-    width: 20px;
-    height: 20px;
-    background: #99C4C1;
+    width: 0px;
+    height: 0px;
     position: absolute;
     right: 0;
     top: 0;
+    border-style: solid;
+    border-width: 50px 0 0 50px;
+    border-color: #239f95 transparent transparent #99C4C1;
 }
 
 #playerName {
