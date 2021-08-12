@@ -40,7 +40,15 @@ body {
 .tagsList input[type="radio"] {
     display: none;
 }
-input[type="text"] {
+.itemInputBox {
+    width: 500px;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input[type="text"].itemInput {
   width: 70%;
   height: 25px;
   border: 0;
