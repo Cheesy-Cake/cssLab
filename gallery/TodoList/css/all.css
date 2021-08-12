@@ -60,8 +60,8 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     cursor: pointer;
     background: #000;
 }
@@ -71,6 +71,7 @@ body {
     height: 20px;
     background: #fff;
     border-radius: 5px;
+    position: absolute;
 }
 .itemInputBox .addBtn::after {
     content: "";
@@ -78,6 +79,7 @@ body {
     height: 5px;
     background: #fff;
     border-radius: 5px;
+    position: absolute;
 }
 
 #playerName {
