@@ -19,7 +19,9 @@ body {
   border: 1px solid #eee;
 }
 .container .title {
-    color: #fff;
+    color: rgb(136, 96, 10);
+    width: 80%;
+    background-color: rgb(238, 199, 163);
 }
 input[type="text"] {
   width: 70%;
