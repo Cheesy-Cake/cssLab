@@ -10,5 +10,5 @@ const itemInput = document.getElementById('itemInput');
 const createItem = "<span>" + itemInput.value + "</span>";
 addBtn.addEventListener('click',addTask);
 function addTask () {
-  console.log(itemInput.value);
+  console.log(createItem);
 }
