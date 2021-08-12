@@ -9,5 +9,3 @@ function pClick() {
 function renewNameFc() {
   nowName.innerHTML = renewName.value;
 }
-const listTag = document.getElementsByTagName('li');
-console.log(listTag);
