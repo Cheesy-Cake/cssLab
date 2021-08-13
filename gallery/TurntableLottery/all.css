@@ -8,6 +8,7 @@
 body {
   display: flex;
   justify-content: center;
+  background: linear-gradient(to bottom,rgb(201, 6, 6),rgb(109, 2, 2));
 }
 .none {
   display: none;
