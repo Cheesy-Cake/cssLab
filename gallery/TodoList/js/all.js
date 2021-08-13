@@ -9,6 +9,6 @@ const addBtn = document.getElementById('addBtn');
 addBtn.addEventListener('click',addTask);
 function addTask () {
   const itemInput = document.getElementById('itemInput');
-  const createItem = "<span>" + itemInput.value + "</span>";
-  itemsContainerBox.innerHTML.append(createItem);
+  const createItem = itemInput.value;
+  itemsContainerBox.append(createItem);
 }
