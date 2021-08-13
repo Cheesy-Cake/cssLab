@@ -147,8 +147,9 @@ body {
     display: flex;
     width: 100%;
     align-items: center;
-    padding: 2px 5px;
+    padding: 5px 10px;
     font-size: 18px;
+    margin-bottom: 5px;
 }
 .itemsContainerBox>div:nth-child(odd) {
     background: #FCD7AC;
