@@ -9,10 +9,8 @@ const addBtn = document.getElementById('addBtn');
 addBtn.addEventListener('click',addTask);
 function addTask () {
   const itemInput = document.getElementById('itemInput');
-  const createItem = itemInput.value;
-  // itemsContainerBox.append(createItem);
+  const createItem = document.createTextNode(itemInput.value);
   let div = document.createElement('div');
-  // let taskText = document.createTextNode(createItem);
-  let addTask = div.appendChild(createItem);
+  div.appendChild(createItem);
   itemsContainerBox.appendChild(div);
 }
