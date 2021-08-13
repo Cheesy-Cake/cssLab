@@ -7,10 +7,12 @@
 const itemsContainerBox = document.getElementById('itemsContainerBox');
 const addBtn = document.getElementById('addBtn');
 addBtn.addEventListener('click',addTask);
-let div = document.createElement('div');
 function addTask () {
-  // const itemInput = document.getElementById('itemInput');
-  // const createItem = itemInput.value;
+  const itemInput = document.getElementById('itemInput');
+  const createItem = itemInput.value;
   // itemsContainerBox.append(createItem);
-  itemsContainerBox.appendChild(div);
+  let div = document.createElement('div');
+  let taskText = document.createText(createItem);
+  div.appendChild(taskText);
+  // itemsContainerBox.appendChild(div);
 }
