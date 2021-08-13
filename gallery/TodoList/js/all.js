@@ -12,5 +12,5 @@ function addTask () {
   // const itemInput = document.getElementById('itemInput');
   // const createItem = itemInput.value;
   // itemsContainerBox.append(createItem);
-  itemsContainerBox.append(div);
+  itemsContainerBox.appendChild(div);
 }
