@@ -143,10 +143,11 @@ body {
     height: 90%;
 }
 .itemsContainerBox>div {
-    height: 30px;
+    height: 40px;
     display: flex;
     width: 100%;
     align-items: center;
+    padding: 2px 5px;
 }
 .itemsContainerBox>div:nth-child(odd) {
     background: #FCD7AC;
