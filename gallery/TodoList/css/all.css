@@ -137,3 +137,11 @@ body {
     top: 6px;
     left: -6px;
 }
+.itemsContainerBox {
+    width: 90%;
+    height: 90%;
+    background: #fff;
+}
+.itemsContainerBox .div {
+    display: block;
+}
