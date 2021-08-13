@@ -142,3 +142,24 @@ body {
     width: 90%;
     height: 90%;
 }
+.itemsContainerBox>.div {
+    height: 30px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.itemsContainerBox>.div:nth-child(odd) {
+    background: #FCD7AC;
+}
+.itemsContainerBox>.div:nth-child(even) {
+    background: #EEEEEE;
+}
+.privateTag,.workTag,.learningTag,.workoutTag {
+    padding: 8px 16px;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+.privateTag { background: #89A3B2; }
+.workTag { background: #B2D3BE; }
+.learningTag { background: #F3826F; }
+.workoutTag { background: #F2F4D1; }
