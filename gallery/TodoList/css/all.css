@@ -148,6 +148,7 @@ body {
     width: 100%;
     align-items: center;
     padding: 2px 5px;
+    font-size: 18px;
 }
 .itemsContainerBox>div:nth-child(odd) {
     background: #FCD7AC;
@@ -158,7 +159,9 @@ body {
 .private,.work,.learning,.workout {
     padding: 8px 16px;
     border-radius: 20px;
-    margin-right: 5px;
+    margin-right: 25px;
+    box-shadow: 1px 1px 1px 1px rgb(0 0 0 / 14%);
+    font-size: 16px;
 }
 .private { background: #89A3B2; }
 .work { background: #B2D3BE; }
