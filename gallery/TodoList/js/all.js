@@ -13,7 +13,6 @@ function addTask () {
   // itemsContainerBox.append(createItem);
   let div = document.createElement('div');
   // let taskText = document.createTextNode(createItem);
-  // let addTask = div.appendChild(taskText);
-  let addTask = div.innerHTML(createItem);
-  itemsContainerBox.appendChild(addTask);
+  let addTask = div.appendChild(createItem);
+  itemsContainerBox.appendChild(div);
 }
