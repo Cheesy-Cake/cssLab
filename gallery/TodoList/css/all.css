@@ -154,12 +154,12 @@ body {
 .itemsContainerBox>div:nth-child(even) {
     background: #EEEEEE;
 }
-.privateTag,.workTag,.learningTag,.workoutTag {
+.private,.work,.learning,.workout {
     padding: 8px 16px;
     border-radius: 20px;
     margin-right: 5px;
 }
-.privateTag { background: #89A3B2; }
-.workTag { background: #B2D3BE; }
-.learningTag { background: #F3826F; }
-.workoutTag { background: #F2F4D1; }
+.private { background: #89A3B2; }
+.work { background: #B2D3BE; }
+.learning { background: #F3826F; }
+.workout { background: #F2F4D1; }

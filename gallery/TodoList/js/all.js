@@ -14,6 +14,7 @@ function addTask () {
   const nowTag = document.querySelector('input[name="listTag"]:checked').value;
   let span = document.createElement('span');
   span.className = nowTag;
+  span.appendChild(nowTag);
   div.appendChild(span);
   div.appendChild(createItem);
   itemsContainerBox.appendChild(div);
