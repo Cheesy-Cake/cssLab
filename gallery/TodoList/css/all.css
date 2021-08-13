@@ -148,10 +148,10 @@ body {
     width: 100%;
     align-items: center;
 }
-.itemsContainerBox>.div:nth-child(odd) {
+.itemsContainerBox .div:nth-child(odd) {
     background: #FCD7AC;
 }
-.itemsContainerBox>.div:nth-child(even) {
+.itemsContainerBox .div:nth-child(even) {
     background: #EEEEEE;
 }
 .privateTag,.workTag,.learningTag,.workoutTag {
