@@ -13,7 +13,7 @@ function addTask () {
   let div = document.createElement('div');
   let span = document.createElement('span');
   div.appendChild(createItem);
-  itemsContainerBox.appendChild(div);
+  itemsContainerBox.appendChild(div).appendChild(span);
   const nowTag = document.querySelector('input[name="listTag"]:checked').value;
   console.log(nowTag);
 }
