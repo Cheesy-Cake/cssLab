@@ -91,6 +91,7 @@ body {
     position: relative;
     margin-top: 25px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     padding-top: 20px;
 }
@@ -140,8 +141,4 @@ body {
 .itemsContainerBox {
     width: 90%;
     height: 90%;
-    background: #fff;
-}
-.itemsContainerBox .div {
-    display: block;
 }
